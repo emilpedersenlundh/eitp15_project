@@ -5,7 +5,7 @@
 ### MCU Bus Allocation
 PORTA: ADC for sensors
 PORTB: Control interface
-PORTC: JTAG
+PORTC: JTAG, TWI(I2C)
 PORTD: USART
 
 ### XBee Pins
