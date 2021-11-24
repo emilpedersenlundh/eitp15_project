@@ -14,5 +14,15 @@ PORTD: USART
 ### XBee Pins
 The course coordinator will make a USB-XBee interface board for flashing firmware onto the XBee module. Thus the module should be removable from the design, or its pins accessible to an external board as to allow for future flashing with updated software.
 
-### Time of Flight Sensor
-Since this sensor operates on 2.8V a logic converter is needed for its I2C interface. The voltage supply is regulated on-chip from 2.8V to 3.3V. Thus only the logic pins need conversion.
+### Sensors
+A total of 4 sensors are implemented on board, with the option of additional addons via 2.54 pinouts for ADC inputs, I2C and USART. 
+
+#### Temperature
+
+#### Humidity
+
+#### Microphone
+Small surface-mounted microphone for detecting ambient noise. Potential uses include presence detection. 
+
+#### Motion
+PIR-sensor for detecting variations in infrared radiation (effectively detecting people's movement). 
