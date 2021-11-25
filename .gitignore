@@ -1,8 +1,10 @@
 /altium_files/*/History
 /altium_files/*/__Previews
 /altium_files/*/Project*/
-/altium_files/*/project.PrjPcbStructure
+/altium_files/*/*.PrjPcbStructure
 /altium_files/*/*/History
 /altium_files/*/*/__Previews
 /altium_files/*/*/Project*/
-*.IntLib
+/altium_files/component_libraries/*.IntLib
+/altium_files/eitp15_lab1_lib/*.IntLib
+/altium_files/jc_lib/*.IntLib
